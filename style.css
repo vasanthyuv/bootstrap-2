@@ -1,0 +1,68 @@
+
+.nav-item{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Quicksand";
+  
+    
+}
+
+#home_id,#lg,#plan_id,#lm,#ab#fra,#ab,#contact_id,#fra{
+    color:rgb(255, 255, 255);
+}
+
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+  
+    background-color: #a9b33b;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+ 
+}
+.deal{
+width: 150px;
+height: 40px;
+background-color: #aab33c;
+text-transform: uppercase;
+font-weight: 700;
+font-family: "Quicksand";
+color:white;
+margin-left: 10px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#subtitle{
+
+
+        font-size: 30px;
+        padding-top:30px;
+        padding-bottom:30px;
+        text-transform: uppercase;
+        color: #5c5c5c;
+        font-weight: 700;
+        font-family: "Quicksand";
+        text-align: center;
+        
+        
+}
+#pre {
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 700;
+    font-family: "Quicksand";
+  }
+
+
+
