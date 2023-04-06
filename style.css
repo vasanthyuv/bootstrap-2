@@ -1,4 +1,8 @@
 
+.navbar{
+  position: absolute;
+  top: 0px;
+}
 .nav-item{
     font-size: 10px;
     text-transform: uppercase;
@@ -90,14 +94,8 @@ margin-left: 10px;
   body{
     overflow-x: hidden;
   }
-  #shape1{
-
-    
-
-filter: drop-shadow(3.83px 3.214px 7.5px rgba(136,133,38,0.3));
-
-  }
-  .card{
+ 
+ /* .card{
    
     
     background-color: #eaf0ae;
@@ -112,8 +110,37 @@ line-height: 25px;
 color: #404142;
 font-weight: 700;
 font-family: "Quicksand";
- }
+ }*/
+ 
+    /*css for cards image and text*/
+    .card img {
+      width: 50%;
+      height: 50%;
 
+    }
+
+    #cardtext {
+      color: #404142;
+      font-weight: 700;
+      font-family: "Quicksand";
+      text-align: center;
+    }
+
+   
+    .card {
+      border-radius:10px;
+      box-shadow: 10px 10px 25px rgb(185, 185, 185);
+      color: #030303;
+      font-family: "Quicksand";
+    }
+    .card::after{
+      content: '';
+      inset: 0;
+      position: absolute;
+      opacity: 0.3;
+      background-color: #d9e271;
+    }
+    
 
 
 
