@@ -4,8 +4,8 @@
     text-transform: uppercase;
     font-weight: 600;
     font-family: "Quicksand";
-  
-    
+
+
 }
 
 #home_id,#lg,#plan_id,#lm,#ab#fra,#ab,#contact_id,#fra{
@@ -16,12 +16,12 @@
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
-  
+
     background-color: #a9b33b;
     border: 1px solid transparent;
     border-radius: 0.25rem;
     transition: box-shadow .15s ease-in-out;
- 
+
 }
 .deal{
 width: 150px;
@@ -54,15 +54,66 @@ margin-left: 10px;
         font-weight: 700;
         font-family: "Quicksand";
         text-align: center;
-        
-        
+
+
 }
-#pre {
-    color: #ffffff;
+ #pre {
+    color: white;
     font-size: larger;
+    font-weight: 1000;
+    font-family: "Quicksand";
+    position: absolute;
+    top: 300px;
+    left: 260px;
+  }
+  .h1{
+    position: absolute;
+    top:250px ;
+    left: 265px;
+  }
+  #button{
+    position: absolute;
+    top: 370px;
+    left:268px ;
+    background-color: #aab33c;
+  } 
+  #h1{
+    
+    font-size: 30px;
+   
+    text-transform: uppercase;
+    color: #404142;
     font-weight: 700;
     font-family: "Quicksand";
+    text-align: center;
   }
+  body{
+    overflow-x: hidden;
+  }
+  #shape1{
+
+    
+
+filter: drop-shadow(3.83px 3.214px 7.5px rgba(136,133,38,0.3));
+
+  }
+  .card{
+   
+    
+    background-color: #eaf0ae;
+
+  }
+ .pic{
+  padding: 50px;
+ }
+ .card-text{
+  font-size: 18px;
+line-height: 25px;
+color: #404142;
+font-weight: 700;
+font-family: "Quicksand";
+ }
+
 
 
 
