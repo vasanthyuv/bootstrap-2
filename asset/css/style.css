@@ -1,0 +1,651 @@
+
+.navbar{
+  position: absolute;
+  top: 0px;
+}
+.nav-item{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Quicksand";
+
+
+}
+
+#home_id,#lg,#plan_id,#lm,#ab#fra,#ab,#contact_id,#fra{
+    color:rgb(255, 255, 255);
+}
+
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+
+    background-color: #a9b33b;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+
+}
+.deal{
+width: 150px;
+height: 40px;
+background-color: #aab33c;
+text-transform: uppercase;
+font-weight: 700;
+font-family: "Quicksand";
+color:white;
+margin-left: 10px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#subtitle{
+
+
+        font-size: 30px;
+        padding-top:30px;
+        padding-bottom:30px;
+        text-transform: uppercase;
+        color: #5c5c5c;
+        font-weight: 700;
+        font-family: "Quicksand";
+        text-align: center;
+
+
+}
+ #pre {
+    color: white;
+    font-size: larger;
+    font-weight: 1000;
+    font-family: "Quicksand";
+    position: absolute;
+    top: 300px;
+    left: 260px;
+  }
+  .h1{
+    position: absolute;
+    top:250px ;
+    left: 265px;
+    
+    color: #aab33c;
+  }
+  #best{
+    font-family:'firstfont';
+  }
+  #button{
+    position: absolute;
+    top: 370px;
+    left:268px ;
+    background-color: #aab33c;
+  } 
+  #h1{
+    
+    font-size: 30px;
+   
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+  }
+  body{
+    overflow-x: hidden;
+  }
+ 
+ /* .card{
+   
+    
+    background-color: #eaf0ae;
+
+  }
+ .pic{
+  padding: 50px;
+ }
+ .card-text{
+  font-size: 18px;
+line-height: 25px;
+color: #404142;
+font-weight: 700;
+font-family: "Quicksand";
+ }*/
+ 
+    /*css for cards image and text*/
+    .card img {
+      width: 50%;
+      height: 50%;
+
+    }
+
+    #cardtext {
+      color: #404142;
+      font-weight: 700;
+      font-family: "Quicksand";
+      text-align: center;
+    }
+
+   
+    .card {
+      border-radius:10px;
+      box-shadow: 10px 10px 25px rgb(185, 185, 185);
+      color: #030303;
+      font-family: "Quicksand";
+    }
+    .card::after{
+      content: '';
+      inset: 0;
+      position: absolute;
+      opacity: 0.3;
+      background-color: #d9e271;
+    }
+    #innerrowcontent {
+      font-family: "Quicksand";
+      color: #404142;
+      font-weight: 900;
+      font-size: large;
+      text-transform: uppercase;
+  }
+  
+  #innerrowimg:hover {
+      transform: scale(1.1);
+  }
+  
+  #page3para,
+  #page4para {
+      font-family: "Quicksand";
+      font-weight: 600;
+      color: #565656;
+      font-size: 15px;
+  }
+  
+  /*css for contents in page 4*/
+  #bgcontainer {
+      background-color: #f3f4e8;
+  }
+  
+  #zoom {
+      color: #404142;
+      font-weight: bolder;
+      font-size: xx-large;
+      font-family: "Quicksand";
+  }
+  
+  #page4content {
+      color: #565656;
+      font-weight: 700;
+      font-family: "Quicksand";
+  }
+  
+  
+  /*css for table in page 5*/
+  .table {
+      width: 75%;
+      border-style: hidden;
+  }
+  
+  .table th {
+      background-color: #a9b33b;
+  }
+  
+  tr:nth-child(odd) {
+      background-color: #ffffff;
+  }
+  
+  tr:nth-child(even) {
+      background-color: #eceed1;
+  }
+  
+  #tablepara {
+      font-size: 8px;
+      font-family: "Quicksand";
+  }
+  
+  #plan {
+      width: 70%;
+      font-family: "Quicksand";
+      font-size: 40px;
+  }
+  
+  #full {
+      width: 15%;
+      font-family: "Quicksand";
+  }
+  
+  #light {
+      width: 18%;
+      font-family: "Quicksand";
+  }
+  
+  .table thead th:first-child {
+      border-top-left-radius: 10px;
+  }
+  
+  .table thead th:last-child {
+      border-top-right-radius: 10px;
+  }
+  
+  #tablecontent {
+      font-size: 10px;
+      color: #0a0a0a;
+      font-weight: 500;
+      font-family: "Quicksand";
+      white-space: pre-line;
+  }
+  
+  td:last-child {
+      box-shadow: 0 0.2rem 0.5em rgba(109, 109, 109, 0.4);
+  }
+  
+  th:last-child {
+      box-shadow: 0 0.2rem 0.5em rgba(0, 0, 0, 0.4);
+  }
+  
+  th:nth-child(2) {
+      box-shadow: 0 0.2rem 0.5em rgba(0, 0, 0, 0.4);
+  }
+  
+  td:nth-child(2) {
+      box-shadow: 0 0.2rem 0.5em rgba(109, 109, 109, 0.4);
+  }
+  
+  th:nth-child(1) {
+      box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+  }
+  
+  td:nth-child(1) {
+      box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+  }
+  
+  #price {
+      font-size: 25px;
+      line-height: 14px;
+      color: #aab33b;
+      font-weight: 700;
+      font-family: "Quicksand";
+      border-bottom-left-radius: 14px;
+  }
+  
+  .bottom {
+      box-shadow: 0px 15px 10px -1px rgba(0, 0, 0, 0.4)11;
+  }
+  
+  #lastrow {
+      font-size: 14px;
+      line-height: 30px;
+      color: #404142;
+      font-weight: 700;
+      font-family: "Quicksand";
+      white-space: pre-line;
+  }
+  
+  .month {
+      text-align: right;
+  }
+  
+  #lastdata {
+      font-size: 14px;
+      line-height: 30px;
+      color: #404142;
+      font-weight: 700;
+      font-family: "Quicksand";
+      border-bottom-right-radius: 14px;
+  }
+  
+  /*css for page 6*/
+  #bg2 {
+      width: 100vw;
+  }
+  
+  .centered {
+      font-size: 150%;
+      line-height: 46px;
+      color: #404142;
+      font-weight: bolder;
+      font-family: "Quicksand";
+      text-align: center;
+      margin-top: -7%;
+      text-decoration: none;
+  }
+  
+  #click {
+      font-size: 150%;
+      font-weight: 900;
+      color: black;
+      text-decoration: none;
+      font-family: "Quicksand";
+  }
+  
+  #click:hover {
+      color: #5f6517;
+  }
+  
+  /*css for card in page 6*/
+  .--card:hover{
+      transform: scale(1.1);
+      transition:ease-out ;
+  }
+  #innercard {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      max-width: 300px;
+      border: 1px solid #ccc;
+      background-color: #fdffe9;
+      margin-left: 50px;
+      margin-top:-40px;
+      position: relative;
+      z-index: 1;
+  }
+  #botcard123{
+      height: 238px;
+  }
+  #innercardtext {
+      flex: 1;
+  }
+  
+  #innerpara {
+      margin-top: auto;
+      font-size: 13px;
+      color: #313132;
+      font-weight: 600;
+      font-family: "Quicksand";
+  }
+  
+  
+  /*css for footer in page 7*/
+  .footer-bg {
+      background-image: url(asset/images/Layer\ 128\ \(1\).png);
+  }
+  
+  .font-2 {
+      width: 260px;
+      height: 130px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #404142;
+      font-weight: 400;
+      font-family: "Quicksand";
+  }
+  
+  .font-3 {
+      font-size: 70%;
+      color: #404142;
+      font-family: "Quicksand";
+  }
+  
+  .font-4,
+  .font-5 {
+      font-size: 70%;
+      color: #404142;
+      font-weight: 500;
+      font-family: "Quicksand";
+  }
+  
+  .font-bg-4,
+  .font-bg-5 {
+      color: black;
+      text-decoration: none;
+  }
+  
+  .font-bg-4:hover,
+  .font-bg-5:hover {
+      color: #848d00;
+  }
+  
+  .but-footer {
+      color: #ffffff;
+      background-color: #acb643;
+      font-size: small;
+      border: none;
+  }
+  
+  .but-footer:hover {
+      background-color: #8b9429;
+  }
+  
+  #fav {
+      color: #a8b336;
+  }
+  
+  #fav-2 {
+      color: white;
+  }
+  
+  .form-control {
+      border: none;
+      outline: 0px;
+  }
+  
+  #addon-wrapping {
+      background-color: #acb643;
+  }
+  
+  #basefoot{
+      background-color: #aab33c;
+  }
+  #basefoottext{
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: "Quicksand";
+  }
+  #click{
+    position: relative;
+    bottom: 33px;
+}
+#learn{
+    position: relative;
+    bottom: 33px;
+
+}
+
+  @font-face {
+    font-family: firstfont;
+    src: url(/asset/font/00819\ Regular.ttf);
+  }
+  @media screen and (max-width: 1200px) {
+  .h1{
+    top:190px;
+    left: 230px;
+  }
+  #pre{
+    top: 230px;
+    left: 223px;
+
+  }
+  #button{
+    left: 232px;
+    top: 290px;
+  }
+  }
+  @media screen and (max-width: 769px) {
+    .h1{
+        font-size: 25px;
+      top:140px;
+      left: 124px;
+    }
+    #pre{
+      top: 170px;
+      left: 120px;
+      font-size: 15px;
+  
+    }
+    #button{
+      left: 124px;
+      top: 220px;
+      width: 110px;
+    }
+    }  
+    /*@media screen and (min-width: 300px) {
+        .h1{
+            font-size: 20px;
+          top: 70px;
+          left: 40px;
+        }
+        #pre{
+          top: 90px;
+          left: 40px;
+          font-size: 10px;
+      
+        }
+        #button{
+          left: 45px;
+          top: 120px;
+          width: 80px;
+          height: 20px;
+          font-size: 10px;
+          display: block;
+        }
+        }  */
+        @media screen and (max-width: 330px) {
+            .h1{
+                font-size: 15px;
+              top: 60px;
+              left: 50px;
+            }
+            #pre{
+              top: 80px;
+              left: 50px;
+              font-size: 7px;
+          
+            }
+            #button{
+              left: 50px;
+              top: 105px;
+              width: 80px;
+              height: 20px;
+              font-size: 10px;
+              display: block;
+            }
+            } 
+            @media screen and (min-width: 769px) {
+                .h1{
+                    font-size: 25px;
+                  top:150px;
+                  left: 167px;
+                }
+                #pre{
+                  top: 176px;
+                  left: 161px;
+                  font-size: 15px;
+              
+                }
+                #button{
+                  left: 170px;
+                  top: 230px;
+                  width: 110px;
+                }
+                } 
+                @media screen and (max-width: 376px) {
+                    .h1{
+                        font-size: 20px;
+                      top:70px;
+                      left: 50px;
+                    }
+                    #pre{
+                      top: 90px;
+                      left: 50px;
+                      font-size: 8px;
+                  
+                    }
+                    #button{
+                        left: 55px;
+                        top: 120px;
+                        width: 80px;
+                        height: 25px;
+                        font-size: 10px;
+                        display: block;
+                    }
+                    }  
+                    @media screen and (max-width: 426px) {
+                        .h1{
+                            font-size: 20px;
+                          top:70px;
+                          left: 50px;
+                        }
+                        #pre{
+                          top: 90px;
+                          left: 50px;
+                          font-size: 8px;
+                      
+                        }
+                        #button{
+                            left: 55px;
+                            top: 120px;
+                            width: 80px;
+                            height: 25px;
+                            font-size: 10px;
+                            display: block;
+                        }
+                        } 
+                        @media screen and (max-width: 321px) {
+                            .h1{
+                                font-size: 20px;
+                              top:54px;
+                              left: 35px;
+                            }
+                            #pre{
+                              top: 74px;
+                              left: 35px;
+                              font-size: 8px;
+                          
+                            }
+                            #button{
+                                left: 39px;
+                                top: 100px;
+                                width: 70px;
+                                height: 20px;
+                                font-size: 10px;
+                                display: block;
+                            }
+                            } 
+                            @media screen and (min-width: 1700px) {
+                                .h1{
+                                    font-size: 45px;
+                                  top:180px;
+                                  left: 124px;
+                                }
+                                #pre{
+                                  top: 220px;
+                                  left: 120px;
+                                  font-size: 20px;
+                              
+                                }
+                                #button{
+                                  left: 129px;
+                                  top: 280px;
+                                  width: 110px;
+                                }
+                                } 
+                                @media screen and (min-width: 1100px) {
+                                    .h1{
+                                        font-size: 45px;
+                                      top:190px;
+                                      left: 124px;
+                                    }
+                                    #pre{
+                                      top: 229px;
+                                      left: 120px;
+                                      font-size: 20px;
+                                  
+                                    }
+                                    #button{
+                                      left: 129px;
+                                      top: 290px;
+                                      width: 110px;
+                                    }
+                                    } 
+                                    form .error{
+                                        color: #f30707;
+                                      }
+                                    
+
+
+
